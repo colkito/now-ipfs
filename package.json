@@ -1,0 +1,22 @@
+{
+  "name": "now-ipfs",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^6.0.3",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-dropzone": "^4.2.11",
+    "reactstrap": "^6.1.0"
+  },
+  "version": "1.0.0",
+  "description": "IPFS from Now",
+  "main": "index.js",
+  "repository": "git@github.com:colkito/now-ipfs.git",
+  "author": "Mario Colque <colquemario@gmail.com>",
+  "license": "UNLICENSED",
+  "private": true
+}
