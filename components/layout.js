@@ -37,6 +37,9 @@ export default (props) => (
       <meta property="og:image:height" content="630" />
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css" />
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+
+      <script src="https://wzrd.in/standalone/buffer"></script>
+      <script src="https://unpkg.com/ipfs-api@9.0.0/dist/index.js" integrity="sha384-5bXRcW9kyxxnSMbOoHzraqa7Z0PQWIao+cgeg327zit1hz5LZCEbIMx/LWKPReuB" crossorigin="anonymous"></script>
     </Head>
 
     <Navbar color="light" light expand="md">
@@ -52,7 +55,7 @@ export default (props) => (
       </Nav>
     </Navbar>
 
-    <Container>
+    <Container className="mt-3">
       <Row>
         <Col sm="12">
           { props.children }

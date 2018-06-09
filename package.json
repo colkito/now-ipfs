@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "ipfs-mini": "^1.1.2",
     "next": "^6.0.3",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
